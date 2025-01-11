@@ -67,7 +67,7 @@ struct WeatherInfoView: View {
                     Text(weatherInfoViewModel.weatherInfo.sunsetTime, style: .time)
                 }
             }
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 70)
 
             HStack {
                 Image(systemName: "drop.fill")
@@ -77,7 +77,6 @@ struct WeatherInfoView: View {
                     .foregroundColor(.primary)
             }
         }
-        .padding()
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(

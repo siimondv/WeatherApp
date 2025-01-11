@@ -19,7 +19,7 @@ class WeatherInfoMapper {
         
         return WeatherInfo(
             locationName: response.locationName,
-            iconURL: URL(string: "http://openweathermap.org/img/wn/\(weather.iconURL)@2x.png"),
+            iconURL: URL(string: "https://openweathermap.org/img/wn/\(weather.iconURL)@2x.png"),
             weatherDescription: response.weather.first?.weatherDescription ?? "Unknown",
             temperature: response.main.temperature,
             maxTemperature: response.main.maxTemperature,

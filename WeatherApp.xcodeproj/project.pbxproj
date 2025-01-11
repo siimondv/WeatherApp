@@ -81,13 +81,11 @@
 		A66A1DB92D2FE65D0040E79A /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				A698B8ED2D32AC9F0034651E /* Models */,
+				A698B8EC2D32AC880034651E /* ViewModels */,
+				A698B8EB2D32AC810034651E /* Views */,
 				A64CFE5E2D3156AE00D1C77B /* Common */,
-				A64CFE5B2D31566700D1C77B /* WeatherInfoMapper.swift */,
-				A64CFE592D31565000D1C77B /* WeatherInfo.swift */,
-				A66A1DCC2D2FF4F60040E79A /* GetWeatherInfoResponse.swift */,
-				A66A1DCA2D2FF4460040E79A /* WeatherInfoViewModel.swift */,
 				A66A1DC42D2FF4070040E79A /* APIClient */,
-				A66A1DBE2D2FE6640040E79A /* WeatherInfoView.swift */,
 				A66A1DB52D2FE65D0040E79A /* Preview Content */,
 				A66A1DB62D2FE65D0040E79A /* Assets.xcassets */,
 				A66A1DB82D2FE65D0040E79A /* WeatherAppApp.swift */,
@@ -102,6 +100,56 @@
 				A66A1DC32D2FF4070040E79A /* Request.swift */,
 			);
 			path = APIClient;
+			sourceTree = "<group>";
+		};
+		A698B8EB2D32AC810034651E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A66A1DBE2D2FE6640040E79A /* WeatherInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A698B8EC2D32AC880034651E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A66A1DCA2D2FF4460040E79A /* WeatherInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A698B8ED2D32AC9F0034651E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A698B8F22D32AD000034651E /* Mappers */,
+				A698B8EF2D32ACB10034651E /* DataTypes */,
+				A698B8EE2D32ACA40034651E /* APIResponses */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A698B8EE2D32ACA40034651E /* APIResponses */ = {
+			isa = PBXGroup;
+			children = (
+				A66A1DCC2D2FF4F60040E79A /* GetWeatherInfoResponse.swift */,
+			);
+			path = APIResponses;
+			sourceTree = "<group>";
+		};
+		A698B8EF2D32ACB10034651E /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				A64CFE592D31565000D1C77B /* WeatherInfo.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		A698B8F22D32AD000034651E /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				A64CFE5B2D31566700D1C77B /* WeatherInfoMapper.swift */,
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
